@@ -145,6 +145,7 @@ h1{
 }
 
 .Portfolio img {
+    margin-top: 10px;
     width: 100%;
     height: 70%;
     border-radius: 30px;
@@ -210,12 +211,12 @@ h1{
 
 .Info p {
     text-align: center;
-    width: 45%;
+    width: 50%;
     line-height: 2em;
 }
 
 
-@media screen and (max-width: 935px) {
+@media screen and (max-width: 1100px) {
     .Portfolio_2 {
         flex-direction: column;
     }
@@ -227,7 +228,7 @@ h1{
         padding: 40px 0;
     }
     .Info h2 {
-        font-size: 40px;
+        font-size: 25px;
         margin-bottom: 10px;
     }
 }
@@ -275,3 +276,10 @@ footer {
     text-decoration: none;
     color: white;
 }
+
+@media screen and (max-width: 935px) {
+    footer h2 {
+        font-size: 30px;
+    }
+}
+
